@@ -17,7 +17,7 @@ You'll need to open up either "Terminal" (on a mac) or "Command Prompt" if using
 
 We also need to navigate to the project directory in your terminal window. The easiest way to do that is to right-click the directory and press "get info." The file path should be in there.
 
-[file path](https://github.com/andrew-pete/ahl_xG/tree/master/assets/filepath.png "File Path in Mac")
+![file path](https://github.com/andrew-pete/ahl_xG/tree/master/assets/filepath.png "File Path in Mac")
 
 You can actually copy that directly, or just make note of it.
 
