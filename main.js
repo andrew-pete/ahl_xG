@@ -12,8 +12,8 @@ import fs from 'fs';
         files.filter(file => file.endsWith('.csv'))
             .forEach(file => {
                 const filePath = rawDataPath + file;
-                const writeFilePath = `${writeDir}${file}_xG`;
-                
+                const writeFilePath = `${writeDir}xG_${file}`;
+
                 getCSV(filePath).then(preProcess).then(data => {
                     const xGData = doRun(data);
                     writeCSV(writeFilePath, xGData)
